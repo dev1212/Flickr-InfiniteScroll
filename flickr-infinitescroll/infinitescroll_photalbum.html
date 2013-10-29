@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<!-- Written by kaiser 
+This application is JSON/REST based. This allows the user to search based on any tags and allows the user to get endless data by scrolling downward.
+
+
+---->
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <title>Infinite Scroll- flickr search </title>
+  <link rel="stylesheet" type="text/css" href="css/flickrsearch.css">
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/flickr-infinitescroll.js"></script>
+</head>
+
+<body>
+  <header id="topbar" role="Search images">
+  	<section id="fetch">
+		<form>
+		<input type="text" value="" id="term" />
+		<input id="submit" type="button" value="Go">
+		<input type="reset" id="clear" value="Clear" />
+		</form>
+		<!--<button id="search">GO</button>-->		
+	</section>
+  </header>
+
+  <div id="wrapper">
+ <div id="gallery" class="clearfix">
+    
+
+                
+                <!--
+                 <div id="noresults">              
+               <h2> No Results</h2>
+              </div>   
+                --->
+    
+    </div> 
+    
+    
+    <!-- end img gallery wrapper -->
+	
+	
+	<div class="clearfix"></div>
+  </div> <!-- end content wrapper -->
+  <div id="status"> </div>
+</body>
+</html>
